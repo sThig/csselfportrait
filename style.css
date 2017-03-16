@@ -1,0 +1,229 @@
+html {
+  height: 100%;
+  background: #fff;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+}
+
+.stripe {
+  width: 100%;
+  position: relative;
+  height: 392px;
+  padding: 96px 32px;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 10;
+}
+
+#professor {
+  background: #e8e8e8;
+}
+
+#professor .container {
+  background: #fff;
+  border: 2px solid #cfcfcf;
+}
+
+#professor .body {
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  background: #424b54;
+  top: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 40px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#professor .jacket {
+  position: absolute;
+  background: #ccc;
+  width: 20px;
+  left: 50%;
+  height: 160px;
+  top: -4px;
+  transform: translateX(-50%) rotate(8deg);
+  z-index: 1;
+}
+
+#professor .jacket:before {
+  content: "";
+  position: absolute;
+  background: #ccc;
+  width: 20px;
+  left: 50%;
+  height: 160px;
+  top: -4px;
+  transform: translateX(-50%) rotate(8deg);
+  z-index: 1;
+}
+
+#professor .face {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: #f0beaf;
+  border-radius: 100px;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+#professor .neck {
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  background: #f0beaf;
+  border-radius: 12px;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+#professor .eyes {
+  position: absolute;
+  top: 34px;
+  width: 10px;
+  height: 10px;
+  background: #424b54;
+  border-radius: 50%;
+  left: 25%;
+  transform: translateX(-50%);
+}
+
+#professor .eyes:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #424b54;
+  top: 0;
+  border-radius: 50%;
+  right: -40px;
+}
+
+/*
+
+
+#professor .eyes:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #424b54;
+  top: 0;
+  border-radius: 50%;
+  right: -40px;
+}
+#professor .nose {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 14px;
+  background: #e48a6f;
+  top: 36px;
+  border-radius: 4px;
+}
+#professor .mouth {
+  position: absolute;
+  background: #424b54;
+  width: 30px;
+  height: 4px;
+  border-radius: 0 0 100px 100px;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#professor .ear {
+  position: absolute;
+  background: #F0BEAF;
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  left: 50px;
+  top: 76px;
+}
+#professor .ear.right {
+  left: 120px;
+}
+#professor .ear:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  background: #e89b84;
+  border-radius: 100%;
+}
+#professor .badge {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 10px;
+  background: #2196F3;
+  border-radius: 100%;
+  border: 2px solid #FDD835;
+}
+#professor .badge:before,
+#professor .badge:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  top: 50%;
+  left: 50%;
+  background: #FDD835;
+}
+#professor .badge:before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+#professor .badge:after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+#professor .telepathy {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  border: solid 2px #9acaf9;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  border-radius: 50%;
+}
+#professor .telepathy.one {
+  animation: telepath 4s 1s infinite;
+}
+#professor .telepathy.two {
+  animation: telepath 4s 1.5s infinite;
+}
+#professor .telepathy.three {
+  animation: telepath 4s 2s infinite;
+}
+@keyframes telepath {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }*/
