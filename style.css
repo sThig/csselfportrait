@@ -114,21 +114,10 @@ body {
   top: 0;
   border-radius: 50%;
   right: -40px;
+
 }
 
-/*
 
-
-#professor .eyes:after {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background: #424b54;
-  top: 0;
-  border-radius: 50%;
-  right: -40px;
-}
 #professor .nose {
   position: absolute;
   left: 50%;
@@ -139,6 +128,7 @@ body {
   top: 36px;
   border-radius: 4px;
 }
+
 #professor .mouth {
   position: absolute;
   background: #424b54;
@@ -149,18 +139,21 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
 #professor .ear {
   position: absolute;
-  background: #F0BEAF;
+  background: #f0beaf;
   width: 26px;
   height: 26px;
   border-radius: 100%;
   left: 50px;
   top: 76px;
 }
+
 #professor .ear.right {
   left: 120px;
 }
+
 #professor .ear:before {
   content: "";
   position: absolute;
@@ -172,16 +165,19 @@ body {
   background: #e89b84;
   border-radius: 100%;
 }
+
+
 #professor .badge {
   position: absolute;
   width: 20px;
   height: 20px;
   top: 20px;
   right: 10px;
-  background: #2196F3;
+  background: #2196f3;
   border-radius: 100%;
-  border: 2px solid #FDD835;
+  border: 2px solid #fdd835;
 }
+
 #professor .badge:before,
 #professor .badge:after {
   content: "";
@@ -192,6 +188,20 @@ body {
   left: 50%;
   background: #FDD835;
 }
+
+#professor .badge:before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#professor .badge::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+
+
+/*
+
+
 #professor .badge:before {
   transform: translate(-50%, -50%) rotate(45deg);
 }
